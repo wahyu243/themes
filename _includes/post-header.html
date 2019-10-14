@@ -33,9 +33,8 @@
                     <h1 class="display-4 mb-2 article-headline">{{ page.title }}</h1>
 			<div class="d-flex align-items-center no-print mb-4">
 
-                       <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>&nbsp; &nbsp;<span class="ml-3">{{page.author}}</span>
-                        <small class="text-muted d-block mt-1">
-<svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>&nbsp; &nbsp;{{ page.date | date_to_string }} <span class="read-time" title="Estimated read time">
+                       <small class="text-muted d-block mt-1"><svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>&nbsp; &nbsp;{{page.author}}
+	  <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>&nbsp; &nbsp;{{ page.date | date_to_string }} <span class="read-time" title="Estimated read time">
          &nbsp; &nbsp; <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>     
           <span itemprop="timeRequired">
           {% assign words = content | number_of_words %}
