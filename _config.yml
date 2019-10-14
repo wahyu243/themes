@@ -2,7 +2,7 @@ name: Jekyll Themes
 url: http://matt.harzewski.com
 description: Insert tagline here
 
-permalink: /themes/:title/
+permalink: /themes/:title
 
 plugins: [jekyll-paginate]
 
