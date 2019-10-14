@@ -1,16 +1,192 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+# Site settings
+name: Administrasi.Net
+title: Administrasi.Net | Kumpulan Administrasi
+description: "Administrasi.net menyajikan berbagai contoh administrasi tentang pendidikan, dokumen, rpp, buku, berita, dll."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://administrasi.net" # the name of your domain
+logo_url: svg/min/logo.svg
 
-permalink: /themes/:title/
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Administrasi.Net
+    hero_description: Contoh berbagai Dokumen Administrasi.
 
-plugins: [jekyll-paginate]
+authors:
+    wahyu:
+      name:           you
+      slug:           you
+      site:           https://coinsprices.net
+      avatar:         /img/you.png
+      avatarlow:      /img/low/you.jpg
+      bio:            "Hi, selamat datang di Administrasi.Net semoga website ini dapat bermanfaat bagi semua. Jangan lupa untuk bergabung, anda juga bisa menjadi kontributor di Administrasi.Net"
+      email:          wahyu243@gmail.com 
+      twitter:        wahyu37853583
+      facebook:       you.w4hyou
+    
+collections:
+  pages:
+    permalink: "/:path"
+    output: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
 
-highlighter: pygments
-paginate: 20
+defaults:
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: page
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts/buku
+    type: posts
+  values:
+    layout: post
+    category: bsd
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "BSD"
+        url: /bsd
+- scope:
+    path: _posts/artikel
+    type: posts
+  values:
+    layout: post
+    category: artikel
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Artikel"
+        url: /artikel
+- scope:
+    path: _posts/berita
+    type: posts
+  values:
+    layout: post
+    category: berita
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Berita"
+        url: /berita/
+- scope:
+    path: _posts/administrasi
+    type: posts
+  values:
+    layout: post
+    category: administrasi
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Administrasi"
+        url: /administrasi
+- scope:
+    path: _posts/cara
+    type: posts
+  values:
+    layout: post
+    category: tutorial
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Tutorial"
+        url: /tutorial
+- scope:
+    path: _posts/teori
+    type: posts
+  values:
+    layout: post
+    category: teori
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Teori"
+        url: /teori/
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+# Contact form
+api_token: 2a824f5cb9d63ff7e9d555cf5d7551fe
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+# Contact info
+contact:
+    phone: 0812 3446 7773
+    email: wahyu243@gmail.com
+    address: Jl. Sindangsari, <br> Cikoneng - Ciamis
+    facebookname: Administrasi.Net
+    facebookurl: https://facebook.com/administrasi.net
+    twittername: administrasi
+    twitterurl: https://twitter.com/administrasi
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Social settings
+facebook: http://facebook.com/administrasi.net
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: 
+feed: yes
+
+# Footer
+copyright: © 2019 Administrasi.Net - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+sass:
+  style: compressed
+  
+include: [_redirects,.htaccess,_pages]
+
+# Theme Settings
+analytics: UA-115101359-19
+google_verification: KVq75QFLhLp8UoW-Mf-ifdxcDsciWvOnDrQEn25KS5M
+bing_verification: 45256F6C01A5B0893737B4B675E797AE
