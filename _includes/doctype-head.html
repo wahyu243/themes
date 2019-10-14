@@ -37,7 +37,54 @@
     <meta name="twitter:creator" content="@you_wahyou">
     <meta name="twitter:card" content="summary">
     <meta content="3kj3zUqTMQb4K-G7zoCj1aLHtho" name="alexaVerifyID">
-    
+     <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "{% if page.layout == 'post' %}Article{% else %}WebSite{% endif %}",
+    "headline": "{%if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
+    "name": "{%if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "id": "{{ site.url }}{{ page.url }}"
+    },
+    "image": {
+        "@type": "ImageObject",
+       "url": " {%if page.image %}{{ site.url }}/thumbnails/{{ page.image }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}",
+		"width": 728,
+        "height": 546
+    },
+    "author": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "JekyllTheme.Net",
+        "url": "https://jekylltheme.net/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://jekylltheme.net/apple-touch-icon.png",
+            "width": 326,
+            "height": 60
+        },
+        "sameAs": [
+    "https://twitter.com/",
+   "https://plus.google.com",
+   "https://www.facebook.com/"
+        ]
+    },
+    "description": "{% if page.description %}{{ page.description}}{% else %}{{ site.description}}{% endif %}"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://jekylltheme.net/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://jekylltheme.net/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
     <!-- Stylesheet -->
