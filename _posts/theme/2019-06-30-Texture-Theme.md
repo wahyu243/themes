@@ -13,11 +13,6 @@ license_link: https://github.com/thelehhman/texture/blob/master/LICENSE.txt
 
 A configurable jekyll theme for simply beautiful blogs.
 
-**Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
-
-![texture theme preview](/screen1.png)
-
-
 ## Installation on Github Pages
 
 Add this line to your site's `_config.yml`:
