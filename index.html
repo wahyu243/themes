@@ -24,18 +24,7 @@ layout: default
                             <h2 class="card-title"> {{ post.title }}</h2>
                             <p class="card-text">{{ post.excerpt| truncate: 100  }}</p>
                              <a href="{{ post.url }}" title="{{ post.title }}">View Theme</a>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/{{ author[1].facebook }}">
-                                         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/{{ author[1].twitter }}">
-                                         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-                                    </a>
-                                </li>
-                            </ul>
+                           
                         </div>
                     </div>
                 </div>
