@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 name: Administrasi.Net
 title: Administrasi.Net | Kumpulan Administrasi
@@ -168,6 +169,101 @@ feed: yes
 # Footer
 copyright: © 2019 Administrasi.Net - All rights reserved
 
+=======
+name: Jekyll Theme
+title: Jekyll Theme
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://jekylltheme.net # the name of your domain
+logo_url: svg/min/logo.svg
+
+authors:
+    wahyu:
+      name:           you
+      slug:           you
+      site:           https://coinsprices.net
+      avatar:         /img/you.png
+      avatarlow:      /img/low/you.jpg
+      bio:            "Hi, selamat datang di Administrasi.Net semoga website ini dapat bermanfaat bagi semua. Jangan lupa untuk bergabung, anda juga bisa menjadi kontributor di Administrasi.Net"
+      email:          wahyu243@gmail.com 
+      twitter:        wahyu37853583
+      facebook:       you.w4hyou
+    
+collections:
+  pages:
+    permalink: "/:path"
+    output: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
+
+defaults:
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: page
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts/free
+    type: posts
+  values:
+    layout: post
+    category: free
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Free"
+        url: /artikel
+- scope:
+    path: _posts/premium
+    type: posts
+  values:
+    layout: post
+    category: premium
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Premium"
+        url: /premium
+
+# Contact info
+contact:
+    phone: 0812 3446 7773
+    email: wahyu243@gmail.com
+    address: Jl. Sindangsari, <br> Cikoneng - Ciamis
+    facebookname: Administrasi.Net
+    facebookurl: https://facebook.com/administrasi.net
+    twittername: administrasi
+    twitterurl: https://twitter.com/administrasi
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: 
+feed: yes
+
+>>>>>>> 21a66d19cfb738731b3e48230531937122247ffe
 # Build settings
 markdown: kramdown
 
@@ -187,6 +283,12 @@ sass:
 include: [_redirects,.htaccess,_pages]
 
 # Theme Settings
+<<<<<<< HEAD
 analytics: UA-115101359-19
 google_verification: KVq75QFLhLp8UoW-Mf-ifdxcDsciWvOnDrQEn25KS5M
 bing_verification: 45256F6C01A5B0893737B4B675E797AE
+=======
+analytics: 
+google_verification: 
+bing_verification: 
+>>>>>>> 21a66d19cfb738731b3e48230531937122247ffe

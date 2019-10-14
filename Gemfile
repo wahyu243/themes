@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # frozen_string_literal: true
 
+=======
+>>>>>>> 21a66d19cfb738731b3e48230531937122247ffe
 source "https://rubygems.org"
 gem "jekyll", "~> 4.0"
 
