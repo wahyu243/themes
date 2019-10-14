@@ -125,7 +125,7 @@ sass:
 include: [_redirects,.htaccess,_pages]
 
 analytics: 
-google_verification: 
+google_verification: Xjtytf0lqAtPG7cjhmSOaOgu3a14Ys-xrPL7BnMIQfA
 bing_verification: 
 paginate_path: /page/:num/
 paginate: 20
