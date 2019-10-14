@@ -127,3 +127,5 @@ include: [_redirects,.htaccess,_pages]
 analytics: 
 google_verification: 
 bing_verification: 
+paginate_path: /page/:num/
+paginate: 20
