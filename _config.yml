@@ -126,6 +126,6 @@ include: [_redirects,.htaccess,_pages]
 
 analytics: 
 google_verification: Xjtytf0lqAtPG7cjhmSOaOgu3a14Ys-xrPL7BnMIQfA
-bing_verification: 
+bing_verification: 45256F6C01A5B0893737B4B675E797AE
 paginate_path: /page/:num/
 paginate: 20
