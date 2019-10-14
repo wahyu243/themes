@@ -3,7 +3,7 @@
     <div class="jumbotron jumbotron-fluid bg-white position-relative">
         <div class="h-100 tofront">
             <div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-9 col-md-7 col-sm-7 col-sm-5 align-self-center">
 			 {% if page.breadcrumbs %}
   <nav class="breadcrumbs mb-3 no-print" itemscope itemtype="http://schema.org/BreadcrumbList" aria-label="Breadcrumbs">
     <span class="breadcrumb sr-only" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -74,7 +74,7 @@
 	</div>
                 </div>
                 {% if page.image %}
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-3 align-self-center">
                     <img class="rounded lazyload" src="/thumbnails/{{ page.thumbnail }}" alt="{{ page.title }}"/>
                 </div>
                 {% endif %}
