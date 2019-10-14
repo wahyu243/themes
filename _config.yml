@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # Site settings
-name: Jekyll Theme
-title: JekyllTheme.Net | Kumpulan Administrasi
-description: "Administrasi.net menyajikan berbagai contoh administrasi tentang pendidikan, dokumen, rpp, buku, berita, dll."
+name: JekyllTheme.Net
+title: JekyllTheme.Net - Jekyll Themes Directory
+description: "JekyllTheme.Net - The best Jekyll themes directory for your project, blog or website. "
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jekylltheme.net" # the name of your domain
 logo_url: svg/min/logo.svg
