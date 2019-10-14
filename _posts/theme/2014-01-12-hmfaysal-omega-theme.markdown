@@ -11,16 +11,9 @@ license: MIT License
 license_link: http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/license/
 ---
 
-HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll
-designed for engineers as well as writers who want their content to
-take front and center. This theme elegantly wraps each page and post
-with featured images complementing the content. HMFAYSAL OMEGA is the
-most complete and complex theme designed for Jekyll to date, ready to
-handle whatever you throw at it. It was built -- by Engineer slash
-Mathematician [Hossain Mohd Faysal](http://alum.mit.edu/www/hmfaysal/).
+HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll designed for engineers as well as writers who want their content to take front and center. This theme elegantly wraps each page and post with featured images complementing the content. HMFAYSAL OMEGA is the most complete and complex theme designed for Jekyll to date, ready to handle whatever you throw at it. It was built -- by Engineer slash Mathematician [Hossain Mohd Faysal](http://alum.mit.edu/www/hmfaysal/).
 
 The theme features:
-
 * Twitter Bootstrap 3
 * Option to set featured image that beautifully wraps your content in
   header and footer
