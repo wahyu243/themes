@@ -1,16 +1,115 @@
 name: Jekyll Theme
-url: https://jekylltheme.net
-description: Insert tagline here
+title: Jekyll Theme
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "url: https://jekylltheme.net" # the name of your domain
+logo_url: svg/min/logo.svg
 
-permalink: /themes/:title
+authors:
+    wahyu:
+      name:           you
+      slug:           you
+      site:           https://coinsprices.net
+      avatar:         /img/you.png
+      avatarlow:      /img/low/you.jpg
+      bio:            "Hi, selamat datang di Administrasi.Net semoga website ini dapat bermanfaat bagi semua. Jangan lupa untuk bergabung, anda juga bisa menjadi kontributor di Administrasi.Net"
+      email:          wahyu243@gmail.com 
+      twitter:        wahyu37853583
+      facebook:       you.w4hyou
+    
+collections:
+  pages:
+    permalink: "/:path"
+    output: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
 
-plugins: [jekyll-paginate]
+defaults:
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: page
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+- scope:
+    path: _posts/free
+    type: posts
+  values:
+    layout: post
+    category: free
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Free"
+        url: /artikel
+- scope:
+    path: _posts/premium
+    type: posts
+  values:
+    layout: post
+    category: premium
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    comments: true
+    support: true
+    breadcrumbs:
+      - label: "Premium"
+        url: /premium
 
-highlighter: pygments
-paginate: 20
+# Contact info
+contact:
+    phone: 0812 3446 7773
+    email: wahyu243@gmail.com
+    address: Jl. Sindangsari, <br> Cikoneng - Ciamis
+    facebookname: Administrasi.Net
+    facebookurl: https://facebook.com/administrasi.net
+    twittername: administrasi
+    twitterurl: https://twitter.com/administrasi
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: 
+feed: yes
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+sass:
+  style: compressed
+  
+include: [_redirects,.htaccess,_pages]
+
+# Theme Settings
+analytics: 
+google_verification: 
+bing_verification: 
