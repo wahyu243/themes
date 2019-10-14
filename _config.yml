@@ -9,8 +9,8 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: Administrasi.Net
-    hero_description: Contoh berbagai Dokumen Administrasi.
+    hero_title: JekyllTheme.Net
+    hero_description: JekyllTheme.Net - Jekyll Themes Directory.
 
 authors:
     wahyu:
