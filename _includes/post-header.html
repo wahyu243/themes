@@ -33,9 +33,7 @@
                     <h1 class="display-4 mb-2 article-headline">{{ page.title }}</h1>
 			<div class="d-flex align-items-center no-print">
 
-                        <img class="rounded-circle i lazyload" src="{{site.url}}{{author.avatar}}" alt="{{author.name}}" width="60" height="60" />
-
-                        <span class="ml-3">{{page.author}}</span>
+                       <svg class="icon icon-user"><use xlink:href="#icon-icon-user"></use></svg> <span class="ml-3">  {{page.author}}</span>
                         <small class="text-muted d-block mt-1">
 <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>&nbsp; &nbsp;{{ page.date | date_to_string }} <span class="read-time" title="Estimated read time">
          &nbsp; &nbsp; <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>     
@@ -52,14 +50,9 @@
 				
                     </div>
 			<div class="meta clearfix">
-		<strong>Author:</strong> {{ page.author }}
 
-		{% if page.license %}
-			<br /><strong>License:</strong> {{ page.license }}
-		{% endif %}
 
-		<br /><br />
-		{% if page.homepage %}
+	{% if page.homepage %}
 			<a class="btn btn-default" href="{{ page.homepage }}"><svg class="icon icon-home"><use xlink:href="#icon-home"></use></svg> Homepage</a>
 		{% endif %}
 		{% if page.download %}
