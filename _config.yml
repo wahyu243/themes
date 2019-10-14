@@ -4,7 +4,7 @@ title: JekyllTheme.Net - Jekyll Themes Directory
 description: "JekyllTheme.Net - The best Jekyll themes directory for your project, blog or website. "
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jekylltheme.net" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logojt.png
 
 # Hero
 hero: 
