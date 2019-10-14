@@ -22,7 +22,7 @@ layout: default
                     <div class="card">
                         <div class="card-body text-center mt-4">
                             <h2 class="card-title"> {{ post.title }}</h2>
-                            <p class="card-text">{{ post.excerpt }}</p>
+                            <p class="card-text">{{ post.excerpt| truncate: 50  }}</p>
                              <a href="{{ post.url }}" title="{{ post.title }}">View Theme</a>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
