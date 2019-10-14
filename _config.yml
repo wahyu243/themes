@@ -50,11 +50,11 @@ defaults:
     author: wahyu
     avatar: /img/you.jpg
 - scope:
-    path: _posts/free
+    path: _posts/blog
     type: posts
   values:
     layout: post
-    category: free
+    category: blog
     image: twitter-card.png
     author: wahyu
     avatar: /img/you.jpg
@@ -62,14 +62,14 @@ defaults:
     comments: true
     support: true
     breadcrumbs:
-      - label: "Free"
-        url: /free
+      - label: "Blog"
+        url: /blog
 - scope:
-    path: _posts/premium
+    path: _posts/theme
     type: posts
   values:
     layout: post
-    category: premium
+    category: theme
     image: twitter-card.png
     author: wahyu
     avatar: /img/you.jpg
@@ -77,8 +77,8 @@ defaults:
     comments: true
     support: true
     breadcrumbs:
-      - label: "Premium"
-        url: /premium
+      - label: "Theme"
+        url: /theme
 # Contact form
 api_token: 
 
