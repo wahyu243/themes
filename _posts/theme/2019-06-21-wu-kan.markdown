@@ -11,7 +11,9 @@ license: MIT License
 license_link: https://github.com/wu-kan/wu-kan.github.io/blob/master/LICENSE
 ---
 
+Except as specifically stated or reproduced, all blog posts are licensed under the same international way of sharing the 4.0 international agreement.
 
+The blog is open sourced on GitHub based on the MIT License .
 1. Fork [wu-kan/wu-kan.github.io] (https://github.com/wu-kan/wu-kan.github.io/fork) to your warehouse and open gh in the settings -pages
 2. Modify `_config.yml` for your own information
 3. Delete the blog posts under `_post/` and the images under the `public/image/` folder to start writing your own articles.
