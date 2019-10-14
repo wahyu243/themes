@@ -80,7 +80,7 @@ defaults:
       - label: "Premium"
         url: /premium
 # Contact form
-api_token: 2a824f5cb9d63ff7e9d555cf5d7551fe
+api_token: 
 
 # Contact info
 contact:
@@ -105,7 +105,7 @@ skype:
 feed: yes
 
 # Footer
-copyright: © 2019 Administrasi.Net - All rights reserved
+copyright: © 2019 JekyllTheme.Net - All rights reserved
 
 markdown: kramdown
 
