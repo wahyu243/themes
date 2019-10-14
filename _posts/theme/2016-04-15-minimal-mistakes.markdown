@@ -11,10 +11,7 @@ license: MIT License
 license_link: https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for
-hosting your personal site, blog, or portfolio on GitHub or
-self-hosting on your own server. As the name implies --- styling is
-purposely minimalistic to be enhanced and customized by you.
+Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you
 
 [![Minimal Mistakes live preview][2]][1]
 
