@@ -9,14 +9,14 @@
     <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
    
     <title>{%if page.title %}{{ page.title }} | {{ site.name }} {% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
     
     <meta property="fb:app_id" content="2023057631120381">
     <meta property="og:locale" content="id">
     <meta property="og:title" content="{%if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.name }}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
     {% if page.layout == 'post' or page.layout == 'page' %}
     <meta property="og:type" content="article">
     <meta property="og:image" content="{{site.url}}/img/{{ page.image }}" >
@@ -32,7 +32,7 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
     <meta name="twitter:site" content="@artipedia243">
     <meta name="twitter:creator" content="@you_wahyou">
     <meta name="twitter:card" content="summary">
@@ -70,7 +70,7 @@
    "https://www.facebook.com/"
         ]
     },
-    "description": "{% if page.description %}{{ page.description}}{% else %}{{ site.description}}{% endif %}"
+    "description": "{% if page.excerpt %}{{ page.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}"
 }
     </script>
     <script type="application/ld+json">
