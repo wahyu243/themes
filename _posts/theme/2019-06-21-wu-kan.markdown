@@ -10,15 +10,11 @@ thumbnail: wu-kan.png
 license: MIT License
 license_link: https://github.com/wu-kan/wu-kan.github.io/blob/master/LICENSE
 ---
-# wu-kan
 
-A content-first, sliding sidebar theme for Jekyll. 
+## Start
 
-Based on [lanyon](https://github.com/poole/lanyon).
-
-See more at [about page](https://wu-kan.github.io/about) or [this post](https://wu-kan.github.io/posts/博客搭建/基于Jekyll搭建个人博客).
-
-Demo：<https://wu-kan.github.io>
-
-![DEMO1](https://wu-kan.github.io/public/image/2019-01-18-1.jpg)
-![DEMO2](https://wu-kan.github.io/public/image/2019-01-18-2.jpg)
+1. Fork [wu-kan/wu-kan.github.io] (https://github.com/wu-kan/wu-kan.github.io/fork) to your warehouse and open gh in the settings -pages
+2. Modify `_config.yml` for your own information
+3. Delete the blog posts under `_post/` and the images under the `public/image/` folder to start writing your own articles.
+4. For detailed configuration, please refer to [this blog post] (https://wu-kan.github.io/posts/blog build/Jekyll build personal blog)
+5. Welcome to <a class="github-button" aria-label="Starwu-kan/wu-kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan .github.io" data-icon="octicon-star" data-show-count="true">Star</a><a class="github-button" aria-label="Fork wu-kan/wu-Kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan.github.io/fork" data-icon="octicon-repo-forked" data-show-count= "true">Fork</a><a class="github-button" aria-label="Issue wu-kan/wu-kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan.github.io/issues" data-icon="octicon-issue-opened" data-show-count="true">Issue</a>
