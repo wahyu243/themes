@@ -252,3 +252,8 @@ section .section-title {
     max-width: 360px;
     width: 100%;
 }
+.backside svg,.frontside svg {
+    bottom: 20px;
+    position: fixed;
+    font-size: 18px;
+}
