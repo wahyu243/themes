@@ -2,7 +2,7 @@ name: Jekyll Theme
 title: Jekyll Theme
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "url: https://jekylltheme.net" # the name of your domain
+url: https://jekylltheme.net # the name of your domain
 logo_url: svg/min/logo.svg
 
 authors:
