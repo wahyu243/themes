@@ -22,7 +22,7 @@ layout: default
                     <div class="card">
                         <div class="card-body text-center mt-4">
                             <h2 class="card-title"> {{ post.title }}</h2>
-                            <p class="card-text">{% if page.excerpt %}{{ page.description | truncate: 60  }}{% else %}{{ post.excerpt | truncate: 60  }}{% endif %}</p>
+                            <p class="card-text">{% if page.excerpt %}{{ page.description | truncate: 60 | replace: 'iframe','span'}}{% else %}{{ post.excerpt | truncate: 60  }}{% endif %}</p>
                              <a href="{{ post.url }}" title="{{ post.title }}">View Theme</a>
                            
                         </div>
