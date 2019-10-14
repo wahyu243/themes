@@ -14,7 +14,7 @@ layout: default
                             <p><img alt="{{ post.title }}" src="/thumbnails/{{ post.thumbnail }}" class="rounded-circle" height="80" width="80"></p>
                             <h4 class="card-title"> {{ post.title }}</h4>
                             <p class="card-text">{{ post.author }}</p>
-                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm"> <svg class="icon icon-plush"><use xlink:href="#icon-plush"></use></svg></a>
                         </div>
                     </div>
                 </div>
@@ -27,12 +27,12 @@ layout: default
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/{{ author[1].facebook }}">
-                                        <i class="fa fa-facebook"></i>
+                                         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/{{ author[1].twitter }}">
-                                        <i class="fa fa-twitter"></i>
+                                         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
                                     </a>
                                 </li>
                             </ul>
