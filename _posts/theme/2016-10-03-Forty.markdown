@@ -7,6 +7,8 @@ download: https://gitlab.com/andrewbanchich/forty-jekyll-theme/repository/archiv
 demo: https://andrewbanchich.gitlab.io/forty-jekyll-theme/
 author: Andrew Banchich
 thumbnail: forty.png
+price: free
+tags: portfolio-theme, landing-page
 license: Creative Commons Attribution 3.0 Unported License
 license_link: html5up.net/license
 ---
