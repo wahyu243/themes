@@ -71,7 +71,7 @@
  data-item-price="{{ page.price }}"
  data-item-image="{{ site.url }}/thumbnails/{{ page.thumbnail }}"
  data-item-url="{{ site.url }}{{ page.url }}"
- data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+ data-item-description="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | truncate:50 }}{% endif %}">
  Add to cart (${{ page.price }})
 </a>
  {% endif %}
