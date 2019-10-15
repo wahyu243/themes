@@ -69,7 +69,7 @@
  data-item-id="{{ page.slug }}"
  data-item-name="{{ page.title }}"
  data-item-price="{{ page.price }}"
- data-item-image="{{ page.thumbnail }}"
+ data-item-image="{{ site.url }}/thumbnails/{{ page.thumbnail }}"
  data-item-url="{{ site.url }}{{ page.url }}"
  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
  Add to cart (${{ page.price }})
