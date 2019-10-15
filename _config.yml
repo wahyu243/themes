@@ -63,7 +63,7 @@ defaults:
     support: true
     breadcrumbs:
       - label: "Free"
-        url: /free
+        url: /theme/free
 - scope:
     path: _posts/premium
     type: posts
@@ -78,7 +78,7 @@ defaults:
     support: true
     breadcrumbs:
       - label: "Premium"
-        url: /premium
+        url: /theme/premium
 
 # Contact form
 api_token: 
