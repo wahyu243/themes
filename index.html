@@ -40,8 +40,8 @@ layout: default
 
 <!-- Start 3 columns -->
 <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-{% for post in site.categories.free %}
+{% for post in site.categories.free limit:9%}    <div class="col-xs-12 col-sm-6 col-md-4">
+
                     <div class="card">
                         <div class="card-body text-center">
                             <a href="{{ post.url }}">
@@ -50,10 +50,9 @@ layout: default
                             <p class="card-text">{{ post.excerpt | strip.html }}</p>
                             
                         </div>
-                    </div>
- {% endfor %}
-        
+                    </div>        
     </div>  
+ {% endfor %}
 </div>
 <!-- End 3 columns -->
 
