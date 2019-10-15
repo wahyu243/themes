@@ -1,14 +1,18 @@
 ---
 layout: post
 title: Liberxue Theme
-date: 2017-08-06 13:45:39
-homepage: https://github.com/Liberxue/liberxue.github.io
-download: https://codeload.github.com/Liberxue/liberxue.github.io/zip/master
-demo: https://liberxue.github.io/
-author:  Liberxue Theme
-thumbnail: liberxue.png
+description: Free download Liberxue Theme jekyll template minimalis for your blog
+homepage: 'https://github.com/Liberxue/liberxue.github.io'
+download: 'https://codeload.github.com/Liberxue/liberxue.github.io/zip/master'
+demo: 'https://liberxue.github.io/'
 license: GNU General Public License Version 2
-license_link: https://github.com/joytou/joytou.github.io/blob/master/LICENSE
+license_link: 'https://github.com/joytou/joytou.github.io/blob/master/LICENSE'
+thumbnail: liberxue.png
+author: Liberxue Theme
+date: 2017-08-06T13:45:39.000Z
+tags:
+  - documentation
+  - free
 ---
 
 
