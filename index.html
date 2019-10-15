@@ -48,7 +48,7 @@ layout: default
                             <img alt="you" src="/thumbnails/{{ post.thumbnail }}" class="rounded-circle"></a>
                             <div class="card-body mt-2">
                             <h3 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                            <p class="card-text">{{ post.excerpt | truncrate: 30 |strip.html  }}</p>
+                            <p class="card-text">{{ post.excerpt | truncate: 13 |strip.html  }}</p>
                             
                         
                     </div>        
