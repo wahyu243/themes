@@ -19,8 +19,8 @@
                 <li><a class="scroll" href="/">Home</a></li>
                 <li><a class="scroll" href="/blog">Blog</a></li>
                 <li><a class="scroll" href="/theme">Themes</a></li>
-                <li><a class="scroll header__checkout snipcart-checkout pointer"><svg class="icon icon-bag"><use xlink:href="#icon-bag"></use></svg><span class="snipcart-total-price"></span></a>
-    </li>
+               {% if page.price %} <li><a class="scroll header__checkout snipcart-checkout pointer"><svg class="icon icon-bag"><use xlink:href="#icon-bag"></use></svg><span class="snipcart-total-price"></span></a>
+    </li>{% endif %}
             </ul>
         </div>     
        
