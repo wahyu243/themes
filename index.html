@@ -74,16 +74,16 @@ layout: default
 <div id="team" class="team"> 
     <h2 class="section-title">Kontributor</h2> 
     <div id="team-carousel">
-    {% for member in site.data.team %}
+    {% for post in site.categories.premium limit:9%}
         <div class="expandable-box">
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
+                <img src="{{ site.baseurl }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title | capitalize }}">
+                <h4>{{ post.title | capitalize }}<</h4>
             </div>
             <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+                <span data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-licenese"><use xlink:href="#icon-licenese"></use></svg></span>
+                </span>
+                <a href="{{ post.url }}" data-toggle="tooltip" data-placement="bottom" title="{{ post.title }}"><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></a>
                 </a>
             </div>
         </div>
