@@ -29,7 +29,7 @@ collections:
     permalink: "/:path"
     output: true
   posts:
-    permalink: "/:categories/:title"
+    permalink: "/:categories/:categories/:title"
     output: true
 
 defaults:
