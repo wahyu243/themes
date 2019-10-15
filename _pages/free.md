@@ -1,4 +1,5 @@
 ---
+layout: nosidebar
 title: Free Jekyll Themes
 description: Free Jekyll Themes.
 permalink: /free
