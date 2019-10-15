@@ -2,8 +2,6 @@ backend:
   name: git-gateway
   branch: master
   
-logo_url: https://jekylltheme.net/apple-touch-icon.png
-  
 media_folder: "thumbnails/"
 public_folder: "/thumbnails/"
 
