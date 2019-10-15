@@ -10,10 +10,6 @@
   image_large: 3.png
   image_alt: 
   
-- image_thumb: 4.jpg
-  image_large: 4.jpg
-  image_alt: 
-
 - image_thumb: 5.png
   image_large: 5.png
   image_alt: 
@@ -30,4 +26,6 @@
   image_large: 8.jpg
   image_alt: 
 
-
+- image_thumb: 4.jpg
+  image_large: 4.jpg
+  image_alt: 
