@@ -39,100 +39,30 @@ layout: default
 <!-- End Hero -->
 
 <!-- Start 3 columns -->
-<div class="three-shade-col">
-    <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
-        <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-        <h3>Sosial Media</h3>
-        <ul>
-            <li><strong>Facebook:</strong> <a style="color:#fff;text-decoration:none" href="{{ site.contact.facebookurl }}">{{ site.contact.facebookname }}</a></li>
-            <li><strong>Twitter:</strong> <a style="color:#fff;text-decoration:none" href="{{ site.contact.twitterurl }}">{{ site.contact.twittername }}</a></li>
-        </ul></div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Lokasi</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
-    </div>
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p><img alt="you" src="https://administrasi.net/img/you.png" class="rounded-circle" height="80" width="80"></p>
+                            <h4 class="card-title"> you</h4>
+                            <p class="card-text">Hi, selamat datang di Administrasi.Net semoga website ini dapat bermanfaat bagi semua. Jangan lup...</p>
+                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+    </div>  
 </div>
 <!-- End 3 columns -->
 
 <!-- Start About -->
 <div id="tentang" class="about">
-    <div class="container-fluid">
-        <h2 class="section-title">Tentang Administrasi.Net</h2>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <h3>Selamat Datang di Administrasi.Net</h3>
-                <p>Administrasi.net menyajikan berbagai contoh administrasi tentang pendidikan, dokumen, rpp, buku, berita, dll.</p>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Share dan Sukai halaman kami di Facebook agar orang-orang lebih mengenal Administrasi.Net</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Bergabunglah bersama kami menjadi kontributor. Bantu orang-orang mendapatkan apa yang dicari</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Bookmark Administrasi.Net dan nantikan update terbaru</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
-            </div>
-        </div>
-    </div>
+ 
 </div>
 <!-- End About -->
 
 <!-- Start Treatments -->
 <div id="kategori" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">Kategori</h2>
 
-        <div class="row">
-            {% for kategori in site.data.kategori %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ kategori.icon }}"><use xlink:href="#{{ kategori.icon }}"></use></svg>
-                        <h4><a href="{{ kategori.url }}" title="{{ kategori.title }}">{{ kategori.title }}</a></h4>
-                        <p>{{ kategori.description }} </p><p>(<a href="{{ kategori.url }}" title="Lihat">Lihat</a>) </p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
 </div>
 <!-- End Treatments -->
 
