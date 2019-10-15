@@ -63,6 +63,8 @@
 		{% if page.license_link %}
 			<a class="btn-sm btn-default" href="{{ page.license_link }}"><svg class="icon icon-licenese"><use xlink:href="#icon-licenese"></use></svg> License</a>
 		{% endif %}
+	        {% if page.price == '0' %} Free {% else %} {{page.price}} {% endif %}
+		
 	</div>
                 </div>
                 {% if page.image %}
