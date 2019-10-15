@@ -67,7 +67,7 @@
                 </div>
                 {% if page.image %}
                 <div class="col-md-3 align-self-center">
-                    <img class="rounded lazyload" src="/thumbnails/{{ page.thumbnail }}" alt="{{ page.title }}"/>
+                    <img class="rounded lazyload" src="/thumbnails/{{ page.thumbnail | replace: "thumbnails/",""}}" alt="{{ page.title }}"/>
                 </div>
                 {% endif %}
             </div>
