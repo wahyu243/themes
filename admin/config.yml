@@ -23,6 +23,7 @@ collections:
         widget: "image"
         required: false
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Price", name: "price", widget: "string"}
       - label: "Author"
         name: "author"
         widget: "string"
@@ -43,7 +44,7 @@ collections:
         name: "image"
         widget: "image"
         required: false
-      - {label: "Last modified date", name: "last_modified_date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime"}
       - label: "Author"
         name: "author"
         widget: "string"
