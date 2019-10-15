@@ -149,6 +149,8 @@ exclude: [
     .gitignore
 ]
 
+plugins: [jekyll-paginate]
+
 sass:
   style: compressed
   
