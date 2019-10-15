@@ -79,6 +79,36 @@ defaults:
     breadcrumbs:
       - label: "Theme"
         url: /theme
+
+- scope:
+    path: _posts/theme/free
+    type: posts
+  values:
+    layout: post
+    category: free
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    support: true
+    breadcrumbs:
+      - label: "Free"
+        url: /theme/free
+
+- scope:
+    path: _posts/theme/premium
+    type: posts
+  values:
+    layout: post
+    category: premium
+    image: twitter-card.png
+    author: wahyu
+    avatar: /img/you.jpg
+    read_time: true
+    support: true
+    breadcrumbs:
+      - label: "Premium"
+        url: /theme/premium
 # Contact form
 api_token: 
 
