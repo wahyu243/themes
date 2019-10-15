@@ -28,7 +28,12 @@ collections:
         widget: "string"
         required: false
       - {label: "Tags", name: "tags", widget: "list"}
-      - label: "features"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
+        
+      - label: "Features"
         name: "features"
         widget: "markdown"
         required: false
