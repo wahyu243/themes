@@ -63,7 +63,18 @@
 		{% if page.license_link %}
 			<a class="btn-sm btn-default" href="{{ page.license_link }}"><svg class="icon icon-licenese"><use xlink:href="#icon-licenese"></use></svg> License</a>
 		{% endif %}
-	        {% if page.price %} <span class="btn-sm btn-default"><svg class="icon icon-price"><use xlink:href="#icon-price"></use></svg> {{ page.price }}</span> {% endif %}
+	        {% if page.price %} 
+				<button
+ class="buy-button snipcart-add-item"
+ data-item-id="{{ page.identifier }}"
+ data-item-name="{{ page.name }}"
+ data-item-price="{{ page.price }}"
+ data-item-image="{{ page.thumbnail }}"
+ data-item-url="{{ site.url }}{{ page.url }}"
+ data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+ Add to cart (${{ page.price }})
+</button>
+ {% endif %}
 		
 	</div>
                 </div>
