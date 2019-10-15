@@ -16,6 +16,11 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Homepage", name: "homepage", widget: "string"}
+      - {label: "Download", name: "download", widget: "string"}
+      - {label: "Demo", name: "demo", widget: "string"}
+      - {label: "Licence", name: "description", widget: "string"}
+      - {label: "Licence Link", name: "licence-link", widget: "string"}
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
