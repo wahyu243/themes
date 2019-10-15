@@ -64,7 +64,7 @@
 			<a class="btn-sm btn-default" href="{{ page.license_link }}"><svg class="icon icon-licenese"><use xlink:href="#icon-licenese"></use></svg> License</a>
 		{% endif %}
 	        {% if page.price %} 
-				<button
+				<a
  class="buy-button snipcart-add-item"
  data-item-id="{{ page.slug }}"
  data-item-name="{{ page.name }}"
@@ -73,7 +73,7 @@
  data-item-url="{{ site.url }}{{ page.url }}"
  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
  Add to cart (${{ page.price }})
-</button>
+</a>
  {% endif %}
 		
 	</div>
