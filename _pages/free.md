@@ -11,9 +11,5 @@ permalink: /free
                             <img alt="you" src="/thumbnails/{{ post.thumbnail }}" class="rounded-circle"></a>
                             <div class="card-home-body mt-4">
                             <h3 class="card-home-title"><a href="{{ post.url }}">{{ post.title | capitalize }}</a></h3>
-                            <p class="card-text">{{ post.excerpt | truncate: 50 | strip.html  }}</p>                                                 
-                    </div>        
-                    </div>        
-    </div>  
- {% endfor %}
+                            <p class="card-text">{{ post.excerpt | truncate: 50 | strip.html  }}</p></div></div></div>{% endfor %}
 </div></div>
