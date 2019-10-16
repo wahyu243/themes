@@ -88,7 +88,8 @@
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">{% if page.price %}
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css">{% endif %}
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
