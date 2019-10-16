@@ -10,12 +10,12 @@
   image_large: 3.jpg
   image_alt: 
   
-- image_thumb: 6.jpg
-  image_large: 6.jpg
-  image_alt: 
-
 - image_thumb: 7.jpg
   image_large: 7.jpg
+  image_alt: 
+
+- image_thumb: 6.jpg
+  image_large: 6.jpg
   image_alt: 
 
 - image_thumb: 8.jpg
